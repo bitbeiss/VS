@@ -2,6 +2,7 @@
 #include "CQueue.h"
 #include <iostream>
 
+//jetzt auf Github!
 
 CQueue::CQueue() {
 	first_element = NULL;
