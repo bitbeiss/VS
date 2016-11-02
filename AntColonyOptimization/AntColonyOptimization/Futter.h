@@ -4,6 +4,7 @@
 class Futter
 {
 public:
+	int Naehrstoffe;
 	Futter();
 	~Futter();
 };
