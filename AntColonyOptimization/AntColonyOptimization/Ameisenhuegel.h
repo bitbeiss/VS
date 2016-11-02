@@ -6,5 +6,7 @@ class Ameisenhuegel
 public:
 	Ameisenhuegel();
 	~Ameisenhuegel();
+private:
+	int Futterlager;
 };
 
