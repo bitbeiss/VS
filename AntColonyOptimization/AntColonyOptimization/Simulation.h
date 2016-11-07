@@ -4,7 +4,7 @@
 class Simulation
 {
 public:
-	Simulation();
+	Simulation(int, int);
 	~Simulation();
 };
 
