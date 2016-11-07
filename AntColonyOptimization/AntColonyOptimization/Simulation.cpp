@@ -2,7 +2,7 @@
 
 
 
-Simulation::Simulation()
+Simulation::Simulation(int int)
 {
 }
 
