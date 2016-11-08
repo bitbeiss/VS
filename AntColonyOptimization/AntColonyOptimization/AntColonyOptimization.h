@@ -27,4 +27,4 @@
 #include "Simulation.h"
 #endif
 
-typedef Rang enum{Arbeiterin,Koenigin,Waechter,Maennchen} rang;
+//typedef Rang enum{Arbeiterin,Koenigin,Waechter,Maennchen} rang;
