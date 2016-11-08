@@ -6,7 +6,7 @@
 
 int main(void) {
 
-	Simulation* Welt = new Simulation(3, 5);
+	Simulation* Welt = new Simulation(4, 4);
 
 	return 0;
 }

@@ -1,12 +1,12 @@
 #pragma once
 #include "AntColonyOptimization.h"
 #include <vector>
-#include "Area.h"
+
 
 class Simulation
 {
 public:
-	Simulation(int, int);
+	Simulation(int Zeilen = 2, int Spalten =2);
 	~Simulation();
 private:
 	std::vector<std::vector<Area*>> Spielfeld;

@@ -1,7 +1,4 @@
 #include "Simulation.h"
-#include "Area.h"
-#include <vector>
-#include <string>
 #include <iostream>
 
 
@@ -37,21 +34,18 @@ Simulation::Simulation(int Zeilen, int Spalten) : Spielfeld(Zeilen, std::vector<
 				Spielfeld[z][s]->setRichtung(Spielfeld[z - 1][s], "Nord");
 			}
 			//Sued
-			if(z!=Zeilen){
+			if(z!=Zeilen-1){
 				Spielfeld[z][s]->setRichtung(Spielfeld[z + 1][s], "Sued");
 			}
 			//Ost
-			if(s!=Spalten){
+			if(s!=Spalten-1){
 				Spielfeld[z][s]->setRichtung(Spielfeld[z][s + 1], "Ost");
 			}
 			//West
 			if(s!=0){
 				Spielfeld[z][s]->setRichtung(Spielfeld[z][s - 1], "West!");
 			}			
-		}
-	if(z=Zeilen){
-		std::cout << Zeilen << " mal "  <<Spalten << " Matrix wurde erstellt!"<< std::endl;
-	}
+		}	
 	}
 }
 
