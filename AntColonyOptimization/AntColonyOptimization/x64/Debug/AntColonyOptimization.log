@@ -1,1 +1,14 @@
-﻿
+﻿  Simulation.cpp
+  Position.cpp
+  HomePosition.cpp
+  Futter.cpp
+  Area.cpp
+c:\users\dan\downloads\vs-master\antcolonyoptimization\antcolonyoptimization\simulation.h(12): error C2065: 'Area': undeclared identifier
+c:\users\dan\downloads\vs-master\antcolonyoptimization\antcolonyoptimization\simulation.h(12): error C2059: syntax error: '>'
+c:\users\dan\downloads\vs-master\antcolonyoptimization\antcolonyoptimization\simulation.h(12): error C2976: 'std::vector': too few template arguments
+  e:\programme\microsoft visual studio\vc\include\vector(678): note: see declaration of 'std::vector'
+c:\users\dan\downloads\vs-master\antcolonyoptimization\antcolonyoptimization\simulation.h(12): error C3203: 'vector': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+  AntColonyOptimization.cpp
+  Ameisenhuegel.cpp
+  Ameise.cpp
+  Generating Code...

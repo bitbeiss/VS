@@ -22,25 +22,37 @@ Area::~Area()
 }
 
 
-void Area::setRichtung(Area* ein){
-
+void Area::setRichtung(Area* ein, std::string Richtung){
+	if (Richtung == "Nord") {
+		Nord = ein;
+	}
+	else if (Richtung == "Sued") {
+		Sued = ein;
+	}
+	else if (Richtung == "Ost") {
+		Ost = ein;
+	}
+	else if (Richtung == "West") {
+		West = ein;
+	}
 }
 
 //Übergeben wird die gewünschte Richtung ("Nord, Sued, Ost, West")
 //Zurückgegeben wird der Pointer auf die angeforderte Richtung
-Area* Area::getRichtung(char ein){
+Area* Area::getRichtung(std::string ein){
 
-	if(ein=='Nord'){
-		return Area::Nord;
+	if(ein=="Nord"){
+		return Nord;
 	}
-	else if(ein=='Sued'){
-		return Area::Sued;
+	else if(ein=="Sued"){
+		return Sued;
 	}
-	else if(ein=='Ost'){
-		return Area::Ost;
+	else if(ein=="Ost"){
+		return Ost;
 	}
-	else if(ein=='West'){
-		return Area::West;
+	else if(ein=="West"){
+		return West;
 	}
 	else return 0;
 }
+
