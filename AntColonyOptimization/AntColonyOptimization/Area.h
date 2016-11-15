@@ -2,8 +2,10 @@
 #include "AntColonyOptimization.h"
 #include <string>
 #include <iostream>
+#include <list>
+#include "Item.h"
 
-class Area
+class Area : public Item
 {
 public:
 	Area(int Zeile=-1, int Spalte=-1);
@@ -19,6 +21,8 @@ private:
 	Area* West;
 	int Zeile;
 	int Spalte;
+
+	std::list<Item*> ItemList;
 
 };
 

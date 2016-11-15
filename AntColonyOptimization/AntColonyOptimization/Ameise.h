@@ -1,11 +1,13 @@
 #pragma once
 #include "AntColonyOptimization.h"
+#include "Item.h"
 
-class Ameise
+class Ameise : public Item
 {
 public:
 	Ameise();
 	~Ameise();
+	virtual void whoAmI();
 
 private:
 	//Status

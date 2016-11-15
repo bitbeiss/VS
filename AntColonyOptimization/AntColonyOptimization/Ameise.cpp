@@ -1,5 +1,10 @@
 #include "Ameise.h"
+#include <iostream>
 
+void Ameise::whoAmI() {
+	std::cout << "Ich bin eine Ameise" << std::endl;
+
+}
 
 
 Ameise::Ameise()

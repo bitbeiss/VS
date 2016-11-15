@@ -151,10 +151,12 @@
     <ClInclude Include="Area.h" />
     <ClInclude Include="Futter.h" />
     <ClInclude Include="HomePosition.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="Simulation.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ameise.cpp" />
@@ -163,9 +165,11 @@
     <ClCompile Include="Area.cpp" />
     <ClCompile Include="Futter.cpp" />
     <ClCompile Include="HomePosition.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Simulation.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

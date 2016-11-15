@@ -47,6 +47,7 @@ Simulation::Simulation(int Zeilen, int Spalten) : Spielfeld(Zeilen, std::vector<
 			}			
 		}	
 	}
+std::cout << "Test"<< std::endl;
 }
 
 
